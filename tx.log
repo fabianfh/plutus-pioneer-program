@@ -1,0 +1,54 @@
+                           TxHash                                 TxIx        Amount
+--------------------------------------------------------------------------------------
+05b0b1ed86324ab641e24f701c53bfa60ec648b5022105aadb0086cc41b348f5     1        7827290 lovelace + TxOutDatumNone
+0f7262dba9374e8819a2170516a86b70e3857001f9c0dbe82ebaafcac1c3a676     0        1000000000 lovelace + TxOutDatumInline ReferenceTxInsScriptsInlineDatumsInBabbageEra (ScriptDataConstructor 0 [])
+0f7431986b8318d05d68823c3a6f4b59fc4905927420c8fa33b1ead1ae2f8503     0        3000000 lovelace + TxOutDatumInline ReferenceTxInsScriptsInlineDatumsInBabbageEra (ScriptDataConstructor 0 [])
+1013477e76d2f04dcf61138f98c20eb9d8226b287aba07d928129509180e0755     0        2000000 lovelace + TxOutDatumHash ScriptDataInBabbageEra "48b2e80716b437d3d4258db67e9c731b0e5192f79e120e4013b4fc7f57ecfb24"
+13bfb05ab0abe2534134d250a03552f95d438ec5048dc941ba84881d65c8cf56     0        65318050 lovelace + TxOutDatumHash ScriptDataInBabbageEra "923918e403bf43c34b4ef6b48eb2ee04babed17320d8d1b9ff9ad086e86f44ec"
+1501b801039572a70aecf09a3147a2a0d060f2ccf1b5eca66b2627533485e0c0     0        200000000 lovelace + TxOutDatumHash ScriptDataInBabbageEra "fcaa61fb85676101d9e3398a484674e71c45c3fd41b492682f3b0054f4cf3273"
+18b9a4ea71bd74a4cf26021b44d255da2ba40a41adf03fbb79c640ead5622fbd     0        2400161 lovelace + TxOutDatumInline ReferenceTxInsScriptsInlineDatumsInBabbageEra (ScriptDataNumber 42)
+193e0fe082b8bc78f328e006e600819f2ba101723fe5452732b97f76f3551b87     1        1094740 lovelace + TxOutDatumHash ScriptDataInBabbageEra "923918e403bf43c34b4ef6b48eb2ee04babed17320d8d1b9ff9ad086e86f44ec"
+1e88c7cf03ade4a40635a078dfe1c64744535489323cc8fcfcde9179cf6622d9     0        2400161 lovelace + TxOutDatumHash ScriptDataInBabbageEra "fcaa61fb85676101d9e3398a484674e71c45c3fd41b492682f3b0054f4cf3273"
+1ed08badbfdab880b636645f81af29e0e4237bb61138c30824ecbd74cf022610     0        2000161 lovelace + TxOutDatumNone
+20117f953462d1dae7cc7619bf7c34ed209567407a4f646452bdaad4075e68fb     0        2400161 lovelace + TxOutDatumNone
+2523dd2140a61bfa4dfc6c8008eff88cef409b3b314d6233ce34cd743db8e789     0        3000000 lovelace + TxOutDatumInline ReferenceTxInsScriptsInlineDatumsInBabbageEra (ScriptDataConstructor 0 [])
+29ab362ab50a0c0a9738a310a8d85adb1a438d1e370744c164c82355abfc844f     0        2400161 lovelace + TxOutDatumHash ScriptDataInBabbageEra "fcaa61fb85676101d9e3398a484674e71c45c3fd41b492682f3b0054f4cf3273"
+2f2528a631de32f8d4c5f56a870c0801c6419ca14135658627a5e7804dd076b1     0        3000000 lovelace + TxOutDatumHash ScriptDataInBabbageEra "bb30a42c1e62f0afda5f0a4e8a562f7a13a24cea00ee81917b86b89e801314aa"
+30386636cd6ed81bd2f6febbca52c33c91a56d47bee3b8ae4bdf9911fc8b8026     0        100000000 lovelace + TxOutDatumNone
+304776ecc955f80c186eed0171cda56da735b18a7d6dc68069d9e5458cb8b9a9     0        1094740 lovelace + TxOutDatumHash ScriptDataInBabbageEra "923918e403bf43c34b4ef6b48eb2ee04babed17320d8d1b9ff9ad086e86f44ec"
+3276509affebabc01bc7bee802ce172953040ef678221ac9c52a6dd2d0bdf662     0        200000000 lovelace + TxOutDatumHash ScriptDataInBabbageEra "fcaa61fb85676101d9e3398a484674e71c45c3fd41b492682f3b0054f4cf3273"
+3361ee966e568657019ea10ca935d29e74990389f397fc71b2553bfdefd9ed0f     0        2000161 lovelace + TxOutDatumInline ReferenceTxInsScriptsInlineDatumsInBabbageEra (ScriptDataNumber 42)
+3477379a363a5f2bd7c4240f9c74e683767ad8c5fbad30ad0bd5e9da5d9b642c     0        20000000 lovelace + TxOutDatumNone
+3d7a8d2e9207cf23b9008493458c57cdb2acfee858bdc35340a3d974eab197f5     0        65318050 lovelace + TxOutDatumHash ScriptDataInBabbageEra "923918e403bf43c34b4ef6b48eb2ee04babed17320d8d1b9ff9ad086e86f44ec"
+48ff81e069e911cd9b875df8adc86e9b0c94d584373b71b709bda1462e20c2f8     0        3000000 lovelace + TxOutDatumInline ReferenceTxInsScriptsInlineDatumsInBabbageEra (ScriptDataConstructor 0 [])
+4a39d8b9eca04f2fe8f7f01ebe654324dfa30128fc9a106096c02ad40ef768a1     0        2400161 lovelace + TxOutDatumInline ReferenceTxInsScriptsInlineDatumsInBabbageEra (ScriptDataNumber 42)
+54862751f9be3adbe848f847fb76da94bb783f39e43c2443f7d13c7c30175207     0        400000000 lovelace + TxOutDatumHash ScriptDataInBabbageEra "923918e403bf43c34b4ef6b48eb2ee04babed17320d8d1b9ff9ad086e86f44ec"
+56678c4e042c535afc94858bd3250093bb1a648b3bb0d52ab6f57d1bf76a59bc     0        3000000 lovelace + TxOutDatumHash ScriptDataInBabbageEra "923918e403bf43c34b4ef6b48eb2ee04babed17320d8d1b9ff9ad086e86f44ec"
+5bea98d841a1bf6c2dcd03163329523d200a295353ef59f2445534e19efabdaa     3        1094740 lovelace + TxOutDatumHash ScriptDataInBabbageEra "923918e403bf43c34b4ef6b48eb2ee04babed17320d8d1b9ff9ad086e86f44ec"
+5d187fece3fa39ff0150b1aae6f59dab98e4447d5f6b77b275fbc34bd197b6c4     0        200000000 lovelace + TxOutDatumInline ReferenceTxInsScriptsInlineDatumsInBabbageEra (ScriptDataNumber 42)
+5f387bf02294528a7a3890abf38fd4ae7984a7496989ebd7b67718f17f823c70     0        2400161 lovelace + TxOutDatumHash ScriptDataInBabbageEra "9e1199a988ba72ffd6e9c269cadb3b53b5f360ff99f112d9b2ee30c4d74ad88b"
+615a6220435a3b74d9c4d97c83019d22437c97b0348bf3672451e53d5e8a7ea3     1        4000000 lovelace + 80 9b3e6f70c480cf3cec9d35b1756aae541aef7ee516b6e6c858c56787.7161636f696e796e706a6530 + 80 9b3e6f70c480cf3cec9d35b1756aae541aef7ee516b6e6c858c56787.7161636f696e796e706a6531 + 80 9b3e6f70c480cf3cec9d35b1756aae541aef7ee516b6e6c858c56787.7161636f696e796e706a6532 + 80 9b3e6f70c480cf3cec9d35b1756aae541aef7ee516b6e6c858c56787.7161636f696e796e706a6533 + 80 9b3e6f70c480cf3cec9d35b1756aae541aef7ee516b6e6c858c56787.7161636f696e796e706a6534 + TxOutDatumHash ScriptDataInBabbageEra "fcaa61fb85676101d9e3398a484674e71c45c3fd41b492682f3b0054f4cf3273"
+620e04e535e9ae670cd47acbdbffea43437aa42f8b4d40e9197b012182d5be59     0        65318050 lovelace + TxOutDatumHash ScriptDataInBabbageEra "923918e403bf43c34b4ef6b48eb2ee04babed17320d8d1b9ff9ad086e86f44ec"
+6674c5ced941116aadacc1f04098fc72a05c7d4c1fa004d0f0e405639786e0c4     1        199820998 lovelace + TxOutDatumNone
+6a2e323c79d36f98b61563f119fb31de7fb7e9d844ac177f0b54075550f72390     0        700000000 lovelace + TxOutDatumHash ScriptDataInBabbageEra "923918e403bf43c34b4ef6b48eb2ee04babed17320d8d1b9ff9ad086e86f44ec"
+71bfc808d77048857659b52b93e8c5ccbcc5580c7ddafda0fa069ef7b066298b     0        2000161 lovelace + TxOutDatumHash ScriptDataInBabbageEra "fcaa61fb85676101d9e3398a484674e71c45c3fd41b492682f3b0054f4cf3273"
+7a6f4df7b9c3fd5a339c345ec7bff518a19e188c5008e8adec40e3ac5a35ac4e     0        2400161 lovelace + TxOutDatumHash ScriptDataInBabbageEra "fcaa61fb85676101d9e3398a484674e71c45c3fd41b492682f3b0054f4cf3273"
+862c1820e878f6a9f561b67a7df535c45a4e0e2120701ef52d3474def9dbb014     0        21000000 lovelace + TxOutDatumHash ScriptDataInBabbageEra "b8249061831d8904e64611a5da1d7d8e7d71283a39d1705680f32943008a2ca1"
+86abe53661bd3dd446dabfa63343bfb0f990777684c6f140e4d15beadd08a362     1        200000000 lovelace + TxOutDatumInline ReferenceTxInsScriptsInlineDatumsInBabbageEra (ScriptDataNumber 42)
+87ed8839cb9f93e4799580b3779c4a372c232be042a21fac4f6559783ae70953     0        2000000 lovelace + TxOutDatumHash ScriptDataInBabbageEra "bb30a42c1e62f0afda5f0a4e8a562f7a13a24cea00ee81917b86b89e801314aa"
+8cda6e58d56fa9278a88df19af9176644a458f4cb7222a0e365981bebdd7cbf8     1        5000000 lovelace + TxOutDatumNone
+8fdb8d4d28862b5ea883ce00e49decb70b4634c500b2f83504894e8b717e1d5e     0        2400161 lovelace + TxOutDatumHash ScriptDataInBabbageEra "fcaa61fb85676101d9e3398a484674e71c45c3fd41b492682f3b0054f4cf3273"
+90cbdb57b114ea1e76d4359765d9d49c422ad2ce567f899a3ce10922c01e5337     0        10000000 lovelace + TxOutDatumNone
+923d55ade77383535abdf8e76a6468086b36d64d88a68c6b7acee386344dcef7     1        4000000 lovelace + 80 bcfd65f6e2a6428e536eaaa25cd2c4d333dee1679812be8268c28271.7161636f696e6b6869677630 + 80 bcfd65f6e2a6428e536eaaa25cd2c4d333dee1679812be8268c28271.7161636f696e6b6869677631 + 80 bcfd65f6e2a6428e536eaaa25cd2c4d333dee1679812be8268c28271.7161636f696e6b6869677632 + 80 bcfd65f6e2a6428e536eaaa25cd2c4d333dee1679812be8268c28271.7161636f696e6b6869677633 + 80 bcfd65f6e2a6428e536eaaa25cd2c4d333dee1679812be8268c28271.7161636f696e6b6869677634 + TxOutDatumHash ScriptDataInBabbageEra "fcaa61fb85676101d9e3398a484674e71c45c3fd41b492682f3b0054f4cf3273"
+97b6e3f2c4beae0c7c4a509b8964c49d325e9f39f9c3ea75210d942ebee81fa3     0        100000000 lovelace + TxOutDatumInline ReferenceTxInsScriptsInlineDatumsInBabbageEra (ScriptDataNumber 42)
+a1259f9aef07affe9312766138eb4e6ff675f9c4ae7490a49cae856686b5b4f4     0        200000000 lovelace + TxOutDatumHash ScriptDataInBabbageEra "fcaa61fb85676101d9e3398a484674e71c45c3fd41b492682f3b0054f4cf3273"
+a450d7b3d7309be497339a1ce7f3634d31c0d5301a32d33de9d75afe142a8e4e     0        200000000 lovelace + TxOutDatumHash ScriptDataInBabbageEra "9e1199a988ba72ffd6e9c269cadb3b53b5f360ff99f112d9b2ee30c4d74ad88b"
+ab0a6d4c3e60b199977c7f3c426ba62d8bf90dd90fb7b10ddbe3d48b88e606cb     0        2400161 lovelace + TxOutDatumHash ScriptDataInBabbageEra "fcaa61fb85676101d9e3398a484674e71c45c3fd41b492682f3b0054f4cf3273"
+ab45353094c7d16ff3b1a0f9664410785be1a660974fd8402286ab7faeccb7da     3        1094740 lovelace + TxOutDatumHash ScriptDataInBabbageEra "923918e403bf43c34b4ef6b48eb2ee04babed17320d8d1b9ff9ad086e86f44ec"
+b713660901512cb8d9230b8c0e96f826486e0266354573002ce4d683c28168a1     0        200000000 lovelace + TxOutDatumHash ScriptDataInBabbageEra "fcaa61fb85676101d9e3398a484674e71c45c3fd41b492682f3b0054f4cf3273"
+b7e30b7c1753ce5ecbc0da1c422c16aed3aceb9afdb5bd4558b3c614b45d7bc2     0        4400080 lovelace + TxOutDatumHash ScriptDataInBabbageEra "fcaa61fb85676101d9e3398a484674e71c45c3fd41b492682f3b0054f4cf3273"
+beca744d45dd43571e9a2357b3b06f77197972c590587c0622fb5b017510cba4     0        3000000 lovelace + TxOutDatumInline ReferenceTxInsScriptsInlineDatumsInBabbageEra (ScriptDataConstructor 0 [])
+cb8542763b457e05d9222952dafecd5430f3311cb6159465a0ed1dfc495b1e91     0        99000000 lovelace + TxOutDatumHash ScriptDataInBabbageEra "923918e403bf43c34b4ef6b48eb2ee04babed17320d8d1b9ff9ad086e86f44ec"
+d0f9cdf66b4dd765d418544aa3ac80e59bc86a0b8bbf7a2591293a3c1293f4d0     0        3000000 lovelace + TxOutDatumInline ReferenceTxInsScriptsInlineDatumsInBabbageEra (ScriptDataConstructor 0 [])
+daf9313f560c560216d3a3f94f26ea46f317411f09a0d814da4182d6022491ca     0        2400161 lovelace + TxOutDatumHash ScriptDataInBabbageEra "9e1199a988ba72ffd6e9c269cadb3b53b5f360ff99f112d9b2ee30c4d74ad88b"
+e02d44acaa334fc2edeb4764cbc3c2826b23aaa6a6eb6c8cfcd71021c78be9da     0        30150000 lovelace + TxOutDatumHash ScriptDataInBabbageEra "923918e403bf43c34b4ef6b48eb2ee04babed17320d8d1b9ff9ad086e86f44ec"

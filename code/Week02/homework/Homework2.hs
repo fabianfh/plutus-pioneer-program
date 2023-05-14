@@ -8,11 +8,11 @@
 module Homework2 where
 
 import qualified Plutus.V2.Ledger.Api as PlutusV2
-import           PlutusTx             (unstableMakeIsData)
-import           PlutusTx.Prelude     (Bool,(/=), BuiltinData)
--- import           Prelude              (undefined)
-import           PlutusTx             (compile)
-import           Utilities            (wrap)
+import           PlutusTx             (unstableMakeIsData, compile)
+
+import           PlutusTx.Prelude     (Bool, BuiltinData, (/=))
+import           Utilities            (wrapValidator)
+
 
 ---------------------------------------------------------------------------------------------------
 ----------------------------------- ON-CHAIN / VALIDATOR ------------------------------------------
@@ -31,7 +31,7 @@ mkValidator _ mr _= flag1 mr /= flag2 mr
 
 
 wrappedVal :: BuiltinData -> BuiltinData -> BuiltinData -> ()
-wrappedVal = wrap mkValidator
+wrappedVal = Utilities.wrapValidator mkValidator
 
 validator :: PlutusV2.Validator
 validator = PlutusV2.mkValidatorScript $$(PlutusTx.compile [|| wrappedVal ||])

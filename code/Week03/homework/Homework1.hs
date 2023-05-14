@@ -11,15 +11,11 @@ import           Plutus.V2.Ledger.Api (BuiltinData, POSIXTime, PubKeyHash,
                                        ScriptContext, Validator,TxInfo,txInfoValidRange,
                                        scriptContextTxInfo, mkValidatorScript)
 import           PlutusTx             (compile, unstableMakeIsData)
-import           PlutusTx.Prelude     (Bool (..),traceIfFalse,(&&),(||),(++),BuiltinString,($),not)
-import           Utilities            (wrap)
--- import Data.Aeson (Value(String))
-import          Plutus.V2.Ledger.Contexts (txSignedBy)
-import          Plutus.V1.Ledger.Interval (contains,from,to)
-import          PlutusTx.Builtins.Class (stringToBuiltinString,fromBuiltin)
-import          PlutusTx.Builtins.Internal (ifThenElse,BuiltinBool (..))
 
-
+import           PlutusTx.Prelude     (Bool (..), BuiltinString, traceIfFalse, (&&), not, (||))
+import           Utilities            (wrapValidator)
+import Plutus.V2.Ledger.Contexts
+import Plutus.V1.Ledger.Interval
 
 ---------------------------------------------------------------------------------------------------
 ----------------------------------- ON-CHAIN / VALIDATOR ------------------------------------------
@@ -35,14 +31,14 @@ unstableMakeIsData ''VestingDatum
 {-# INLINABLE mkVestingValidator #-}
 -- This should validate if either beneficiary1 has signed the transaction and the current slot is before or at the deadline
 -- or if beneficiary2 has signed the transaction and the deadline has passed.
-mkVestingValidator :: VestingDatum -> () -> ScriptContext -> Bool
+mkVestingValidator :: VestingDatum -> () -> Plutus.V2.Ledger.Api.ScriptContext -> Bool
 mkVestingValidator dat () ctx = traceIfFalse msg1 (signedByBeneficiary1 && beforedeadline) ||
                                 traceIfFalse msg2 (signedByBeneficiary2 && not beforedeadline)
                         
 
   where
-    info :: TxInfo
-    info = scriptContextTxInfo ctx
+    info :: Plutus.V2.Ledger.Api.TxInfo
+    info = Plutus.V2.Ledger.Api.scriptContextTxInfo ctx
 
     signedByBeneficiary1 :: Bool
     signedByBeneficiary1 =  txSignedBy info (beneficiary1 dat)
@@ -51,7 +47,7 @@ mkVestingValidator dat () ctx = traceIfFalse msg1 (signedByBeneficiary1 && befor
     signedByBeneficiary2 = txSignedBy info (beneficiary2 dat)
 
     beforedeadline :: Bool
-    beforedeadline =  contains   (to (deadline dat)) (txInfoValidRange info)
+    beforedeadline =  contains   (to (deadline dat)) (Plutus.V2.Ledger.Api.txInfoValidRange info)
 
 
 
@@ -74,7 +70,7 @@ mkVestingValidator dat () ctx = traceIfFalse msg1 (signedByBeneficiary1 && befor
 
 {-# INLINABLE  mkWrappedVestingValidator #-}
 mkWrappedVestingValidator :: BuiltinData -> BuiltinData -> BuiltinData -> ()
-mkWrappedVestingValidator = wrap mkVestingValidator
+mkWrappedVestingValidator = wrapValidator mkVestingValidator
 
 validator :: Validator
 validator = mkValidatorScript $$(compile [|| mkWrappedVestingValidator ||])

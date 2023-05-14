@@ -12,9 +12,9 @@ import           Plutus.V2.Ledger.Api (BuiltinData, POSIXTime, PubKeyHash,
                                        mkValidatorScript)
 import           PlutusTx             (applyCode, compile, liftCode)
 import           PlutusTx.Prelude     (Bool , (.), traceIfFalse, (&&))
-import           Utilities            (wrap)
-import          Plutus.V2.Ledger.Contexts (txSignedBy)
-import          Plutus.V1.Ledger.Interval (contains,from)
+import           Utilities            (wrapValidator)
+import Plutus.V2.Ledger.Contexts
+import Plutus.V1.Ledger.Interval
 
 ---------------------------------------------------------------------------------------------------
 ----------------------------------- ON-CHAIN / VALIDATOR ------------------------------------------
@@ -41,7 +41,7 @@ mkParameterizedVestingValidator beneficiary deadline () ctx = traceIfFalse msg1 
 
 {-# INLINABLE  mkWrappedParameterizedVestingValidator #-}
 mkWrappedParameterizedVestingValidator :: PubKeyHash -> BuiltinData -> BuiltinData -> BuiltinData -> ()
-mkWrappedParameterizedVestingValidator = wrap . mkParameterizedVestingValidator
+mkWrappedParameterizedVestingValidator = wrapValidator . mkParameterizedVestingValidator
 
 validator :: PubKeyHash -> Validator
 validator beneficiary = mkValidatorScript ($$(compile [|| mkWrappedParameterizedVestingValidator ||]) `applyCode` liftCode beneficiary)
